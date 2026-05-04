@@ -1,0 +1,69 @@
+package com.krakedev.alien.testJUnit;
+
+import static org.junit.jupiter.api.Assertions.*;
+
+import org.junit.jupiter.api.Test;
+
+import com.krakedev.alien.Alien;
+
+
+public class TestAlien {
+
+	  // Prueba de flujo completo
+    @Test
+    public void testFlujoCompleto() {
+
+        Alien alien = new Alien(15, "Morado");
+
+        assertTrue(alien.agregarBrazos(3));
+        assertTrue(alien.agregarPiernas(2));
+        assertTrue(alien.agregarOjos(4));
+
+        // Verifico estado final
+        assertEquals(3, alien.getNumeroBrazos());
+        assertEquals(2, alien.getNumeroPies());
+        assertEquals(4, alien.getNumeroOjos());
+
+        assertTrue(alien.getPrecioTotal() > 0);
+    }
+
+    // Prueba de límite total de extremidades
+    @Test
+    public void testLimiteExtremidades() {
+
+        Alien alien = new Alien(20, "Azul");
+
+        assertTrue(alien.agregarBrazos(5));
+        assertTrue(alien.agregarPiernas(5));
+
+        // ya está en el máximo
+        assertFalse(alien.agregarBrazos(1));
+    }
+
+    // Prueba de límites de ojos según tamaño
+    @Test
+    public void testLimiteOjos() {
+
+        Alien alien = new Alien(9, "Verde"); // max 3 ojos
+
+        assertTrue(alien.agregarOjos(3));
+        assertFalse(alien.agregarOjos(1));
+    }
+
+    // Prueba de precio total acumulado
+    @Test
+    public void testPrecioTotalCalculado() {
+
+        Alien alien = new Alien(10, "Negro");
+
+        alien.agregarBrazos(2);
+        alien.agregarPiernas(2);
+        alien.agregarOjos(2);
+
+        double esperado = alien.getPrecioCuerpo() +
+                (4 * alien.getPrecioExtremidad()) +
+                (2 * alien.getPrecioOjo());
+
+        assertEquals(esperado, alien.getPrecioTotal(), 0.001);
+    }  
+}

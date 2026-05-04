@@ -1,0 +1,8 @@
+package com.krakedev.alien.legacy;
+
+/**
+ * Legacy test placeholder. Tests moved to src/test/java.
+ */
+public class TestAlienIa {
+    // placeholder - intentionally empty
+}

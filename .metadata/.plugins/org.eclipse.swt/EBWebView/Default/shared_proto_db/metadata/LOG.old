@@ -1,2 +1,3 @@
-2026/05/03-23:40:29.562 35ec Creating DB D:\documentos\aliens-taller\.metadata\.plugins\org.eclipse.swt\EBWebView\Default\shared_proto_db\metadata since it was missing.
-2026/05/03-23:40:29.566 35ec Reusing MANIFEST D:\documentos\aliens-taller\.metadata\.plugins\org.eclipse.swt\EBWebView\Default\shared_proto_db\metadata/MANIFEST-000001
+2026/05/04-00:53:26.649 6384 Reusing MANIFEST D:\documentos\aliens-taller\.metadata\.plugins\org.eclipse.swt\EBWebView\Default\shared_proto_db\metadata/MANIFEST-000001
+2026/05/04-00:53:26.650 6384 Recovering log #3
+2026/05/04-00:53:26.650 6384 Reusing old log D:\documentos\aliens-taller\.metadata\.plugins\org.eclipse.swt\EBWebView\Default\shared_proto_db\metadata/000003.log 

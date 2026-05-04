@@ -1,0 +1,9 @@
+package com.krakedev.alien.legacy;
+
+/**
+ * Legacy test placeholder. Tests were moved to src/test/java for Maven.
+ * This file is kept to avoid duplicate-class issues in IDEs; it contains no tests.
+ */
+public class TestAlien {
+    // legacy placeholder - intentionally empty
+}

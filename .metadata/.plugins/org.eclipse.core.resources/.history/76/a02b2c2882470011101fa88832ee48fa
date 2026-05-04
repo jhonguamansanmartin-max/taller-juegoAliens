@@ -1,0 +1,13 @@
+@echo off
+REM Try to run mvn test; if mvn not found, print instructions.
+where mvn >nul 2>&1
+if %ERRORLEVEL%==0 (
+  echo Ejecutando pruebas con Maven...
+  mvn test
+) else (
+  echo Maven no encontrado en PATH.
+  echo 1) Instala Maven y añádelo al PATH, o
+  echo 2) Importa este proyecto en Eclipse como Maven project (File -> Import -> Existing Maven Projects).
+  echo 3) Si no quieres usar Maven, abre README.md para pasos alternativos.
+)
+pause

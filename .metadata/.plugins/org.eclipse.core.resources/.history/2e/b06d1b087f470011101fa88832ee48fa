@@ -1,0 +1,11 @@
+/**
+ * 
+ */
+/**
+ * 
+ */
+module alienstaller1 {
+	// Permitir el uso de JUnit Jupiter en las pruebas.
+	// Nota: Asegúrate de tener las dependencias de JUnit en el classpath/modulepath del proyecto.
+	requires org.junit.jupiter.api;
+}

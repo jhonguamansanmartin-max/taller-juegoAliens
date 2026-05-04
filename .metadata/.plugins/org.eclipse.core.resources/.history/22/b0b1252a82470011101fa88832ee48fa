@@ -1,0 +1,28 @@
+Proyecto configurado para Maven
+
+Qué hice:
+- Añadí un `pom.xml` con dependencia a JUnit Jupiter.
+- Copié la clase `Alien` a `src/main/java/com/krakedev/alien/Alien.java`.
+- Coloqué las pruebas en `src/test/java/com/krakedev/alien/testJUnit/` (`TestAlien.java` y `TestAlienIa.java`).
+
+Cómo ejecutar las pruebas (opciones):
+
+1) Con Maven (recomendado):
+   - Instala Maven (https://maven.apache.org/install.html) y asegúrate de que `mvn` esté en tu PATH.
+   - Desde la raíz del proyecto (donde está este README) ejecuta en cmd:
+
+     cd /d D:\documentos\aliens-taller\alienstaller1
+     mvn test
+
+2) Desde Eclipse:
+   - Importa el proyecto como Maven Project: File -> Import -> Existing Maven Projects -> selecciona la carpeta del proyecto.
+   - Espera a que Eclipse descargue dependencias (m2e) y luego ejecuta las pruebas con Run As -> JUnit Test.
+
+Notas sobre Eclipse y errores:
+- Si ves errores del tipo "The declared package does not match the expected package ..." en Eclipse, probablemente el IDE no tiene configuradas las carpetas de fuente en la forma esperada. Importar como Maven Project arreglará esto.
+- Si prefieres mantener la estructura anterior (`src/` en lugar de `src/main/java`), dímelo y adapto el `pom.xml` o muevo los archivos.
+
+Archivos útiles:
+- run-tests.bat -> intenta ejecutar `mvn test` o te indica que instales Maven.
+
+Si quieres que haga más ajustes automáticos (por ejemplo eliminar los archivos antiguos en `src/`, configurar archivos .project/.classpath para Eclipse, o generar un `build.gradle`), dime cuál y lo hago.

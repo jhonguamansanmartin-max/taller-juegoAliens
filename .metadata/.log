@@ -30,3 +30,850 @@ java.io.IOException: Process timed-out and it was attempted to forcefully termin
 	at org.eclipse.ui.internal.WindowsDefenderConfigurator.lambda$0(WindowsDefenderConfigurator.java:106)
 	at org.eclipse.core.runtime.jobs.Job$2.run(Job.java:187)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2026-05-04 00:27:25.078
+!MESSAGE No digest algorithm is available to verify download of osgi.bundle,com.microsoft.copilot.eclipse.branding,0.16.0.202604020254 from repository https://azuredownloads-g3ahgwb5b8bkbxhd.b01.azurefd.net/github-copilot/.
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2026-05-04 00:27:25.081
+!MESSAGE No digest algorithm is available to verify download of osgi.bundle,com.microsoft.copilot.eclipse.ui,0.16.0.202604020254 from repository https://azuredownloads-g3ahgwb5b8bkbxhd.b01.azurefd.net/github-copilot/.
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2026-05-04 00:27:25.081
+!MESSAGE No digest algorithm is available to verify download of osgi.bundle,com.microsoft.copilot.eclipse.core,0.16.0.202604020254 from repository https://azuredownloads-g3ahgwb5b8bkbxhd.b01.azurefd.net/github-copilot/.
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2026-05-04 00:27:25.081
+!MESSAGE No digest algorithm is available to verify download of osgi.bundle,com.microsoft.copilot.eclipse.core.agent.win32,0.16.0.202604020254 from repository https://azuredownloads-g3ahgwb5b8bkbxhd.b01.azurefd.net/github-copilot/.
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2026-05-04 00:27:25.081
+!MESSAGE No digest algorithm is available to verify download of org.eclipse.update.feature,com.microsoft.copilot.eclipse.feature,0.16.0.202604020254 from repository https://azuredownloads-g3ahgwb5b8bkbxhd.b01.azurefd.net/github-copilot/.
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2026-05-04 00:27:25.081
+!MESSAGE No digest algorithm is available to verify download of osgi.bundle,com.microsoft.copilot.eclipse.terminal.api,0.16.0.202604020254 from repository https://azuredownloads-g3ahgwb5b8bkbxhd.b01.azurefd.net/github-copilot/.
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2026-05-04 00:27:25.083
+!MESSAGE No digest algorithm is available to verify download of osgi.bundle,com.microsoft.copilot.eclipse.ui.jobs,0.16.0.202604020254 from repository https://azuredownloads-g3ahgwb5b8bkbxhd.b01.azurefd.net/github-copilot/.
+!SESSION 2026-05-04 00:27:40.575 -----------------------------------------------
+eclipse.buildId=4.39.0.20260305-0817
+java.version=26
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=es_ES
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product -data file:/D:/documentos/aliens-taller/
+
+!ENTRY ch.qos.logback.classic 1 0 2026-05-04 00:27:46.444
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2026-05-04 00:27:49.341
+!MESSAGE Logback config file: D:\documentos\aliens-taller\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.7.101.20251017-1242.xml
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-05-04 00:28:01.108
+!MESSAGE [Info] Starting language server with binary lsp agent.
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-05-04 00:28:01.115
+!MESSAGE [Info] Found native binary in fragment bundle: com.microsoft.copilot.eclipse.core.agent.win32
+
+!ENTRY org.eclipse.egit.ui 2 0 2026-05-04 00:28:01.265
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\jhong'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.ui.workbench 4 0 2026-05-04 00:28:01.855
+!MESSAGE Failed to obtain 'WinDefend' service state
+!STACK 0
+java.io.IOException: Process timed-out and it was attempted to forcefully terminate it
+	at org.eclipse.ui.internal.WindowsDefenderConfigurator.runProcess(WindowsDefenderConfigurator.java:395)
+	at org.eclipse.ui.internal.WindowsDefenderConfigurator.runPowershell(WindowsDefenderConfigurator.java:369)
+	at org.eclipse.ui.internal.WindowsDefenderConfigurator.isWindowsDefenderServiceRunning(WindowsDefenderConfigurator.java:302)
+	at org.eclipse.ui.internal.WindowsDefenderConfigurator.runExclusionCheck(WindowsDefenderConfigurator.java:159)
+	at org.eclipse.ui.internal.WindowsDefenderConfigurator.lambda$0(WindowsDefenderConfigurator.java:106)
+	at org.eclipse.core.runtime.jobs.Job$2.run(Job.java:187)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-05-04 00:28:03.552
+!MESSAGE [Info] Binary agent started successfully.
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-05-04 00:28:07.220
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[lsp] GitHub Copilot Language Server 1.457.0 initialized
+
+!ENTRY org.eclipse.lsp4e 2 0 2026-05-04 00:28:07.517
+!MESSAGE [LS:GitHub Copilot Language Server][Warning]	[McpAutoApproveService] Invalid McpAutoApproveService config, resetting to empty undefined
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-05-04 00:28:07.517
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[certificates] Removed 6 expired certificates
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-05-04 00:28:07.606
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[default] Policy watcher started for GitHub Copilot Plugin
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-05-04 00:28:07.609
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[GithubAvailableEmbeddingTypes] Could not find any available embedding types. Error: noSession
+
+!ENTRY org.eclipse.lsp4e 2 0 2026-05-04 00:28:07.794
+!MESSAGE [LS:GitHub Copilot Language Server][Warning]	[McpAutoApproveService] Invalid McpAutoApproveService config, resetting to empty undefined
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-05-04 00:52:58.670
+!MESSAGE [Info] Document is null for editor: Alien.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-05-04 00:52:58.671
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///D:/documentos/aliens-taller/alienstaller1/src/com/krakedev/alien/Alien.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-05-04 00:52:58.721
+!MESSAGE [Info] Document is null for editor: TestAlienIa.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-05-04 00:52:58.721
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///D:/documentos/aliens-taller/alienstaller1/src/com/krakedev/alien/testJUnit/TestAlienIa.java
+!SESSION 2026-05-04 00:53:01.498 -----------------------------------------------
+eclipse.buildId=4.39.0.20260305-0817
+java.version=26
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=es_ES
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product -data file:/D:/documentos/aliens-taller/
+
+!ENTRY ch.qos.logback.classic 1 0 2026-05-04 00:53:08.074
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2026-05-04 00:53:09.652
+!MESSAGE Logback config file: D:\documentos\aliens-taller\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.7.101.20251017-1242.xml
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-05-04 00:53:18.925
+!MESSAGE [Info] Starting language server with binary lsp agent.
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-05-04 00:53:18.928
+!MESSAGE [Info] Found native binary in fragment bundle: com.microsoft.copilot.eclipse.core.agent.win32
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-05-04 00:53:18.955
+!MESSAGE [Info] Binary agent started successfully.
+
+!ENTRY org.eclipse.egit.ui 2 0 2026-05-04 00:53:19.084
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\jhong'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.ui.workbench 4 0 2026-05-04 00:53:19.857
+!MESSAGE Failed to obtain 'WinDefend' service state
+!STACK 0
+java.io.IOException: Process timed-out and it was attempted to forcefully terminate it
+	at org.eclipse.ui.internal.WindowsDefenderConfigurator.runProcess(WindowsDefenderConfigurator.java:395)
+	at org.eclipse.ui.internal.WindowsDefenderConfigurator.runPowershell(WindowsDefenderConfigurator.java:369)
+	at org.eclipse.ui.internal.WindowsDefenderConfigurator.isWindowsDefenderServiceRunning(WindowsDefenderConfigurator.java:302)
+	at org.eclipse.ui.internal.WindowsDefenderConfigurator.runExclusionCheck(WindowsDefenderConfigurator.java:159)
+	at org.eclipse.ui.internal.WindowsDefenderConfigurator.lambda$0(WindowsDefenderConfigurator.java:106)
+	at org.eclipse.core.runtime.jobs.Job$2.run(Job.java:187)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-05-04 00:53:22.731
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[lsp] GitHub Copilot Language Server 1.457.0 initialized
+
+!ENTRY org.eclipse.lsp4e 2 0 2026-05-04 00:53:22.889
+!MESSAGE [LS:GitHub Copilot Language Server][Warning]	[McpAutoApproveService] Invalid McpAutoApproveService config, resetting to empty undefined
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-05-04 00:53:22.890
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[certificates] Removed 6 expired certificates
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-05-04 00:53:22.912
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[default] Policy watcher started for GitHub Copilot Plugin
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-05-04 00:53:22.916
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[GithubAvailableEmbeddingTypes] Could not find any available embedding types. Error: noSession
+
+!ENTRY org.eclipse.lsp4e 2 0 2026-05-04 00:53:23.042
+!MESSAGE [LS:GitHub Copilot Language Server][Warning]	[McpAutoApproveService] Invalid McpAutoApproveService config, resetting to empty undefined
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-05-04 01:01:52.418
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[AutoModelService] Auto model cache cleared due to token update
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-05-04 01:01:52.419
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[CopilotMCP] MCP state changed from false to true
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-05-04 01:01:52.868
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[Semantic Search] Semantic search feature flag is updated {
+  shouldEnableSemanticSearch: true,
+  ideSemanticSearchEnabledExpFlag: true,
+  editorPreviewFeaturesDisabled: false
+}
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-05-04 01:03:01.576
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[agentPrompt] Rendering fresh global context for conversation/turn db176e77-728f-40a9-8a31-58c6ddf3c291/c273d322-5d74-4778-9198-69dba2774ff4
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-05-04 01:03:05.130
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[fetchChat] Request 1557323f-4aba-4f2b-9958-54eabdac4bfb at <https://api.individual.githubcopilot.com/responses> finished with 200 status after 3484.2983999999706ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-05-04 01:03:07.559
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[agentModePolicy] Auto-approval is enabled (not disabled by token envelope or group policy)
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-05-04 01:03:07.655
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[agentPrompt] Reusing cached global context from first turn for conversation/turn db176e77-728f-40a9-8a31-58c6ddf3c291/c273d322-5d74-4778-9198-69dba2774ff4
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-05-04 01:03:09.393
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[fetchChat] Request caee88a9-998c-4951-8681-cad1a45a738a at <https://api.individual.githubcopilot.com/responses> finished with 200 status after 1745.7627000000793ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-05-04 01:03:10.499
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[agentModePolicy] Auto-approval is enabled (not disabled by token envelope or group policy)
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-05-04 01:03:10.577
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[agentPrompt] Reusing cached global context from first turn for conversation/turn db176e77-728f-40a9-8a31-58c6ddf3c291/c273d322-5d74-4778-9198-69dba2774ff4
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-05-04 01:03:15.779
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[fetchChat] Request 08a8de41-c100-4815-b7ad-125625b9f46f at <https://api.individual.githubcopilot.com/responses> finished with 200 status after 5253.9385000000475ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-05-04 01:03:21.019
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[agentModePolicy] Auto-approval is enabled (not disabled by token envelope or group policy)
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-05-04 01:03:22.463
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[agentPrompt] Reusing cached global context from first turn for conversation/turn db176e77-728f-40a9-8a31-58c6ddf3c291/c273d322-5d74-4778-9198-69dba2774ff4
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-05-04 01:03:24.686
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[fetchChat] Request 74923bf8-2623-4b63-b6af-ae3aacb98aeb at <https://api.individual.githubcopilot.com/responses> finished with 200 status after 2481.0429000000004ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-05-04 01:03:25.465
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[agentModePolicy] Auto-approval is enabled (not disabled by token envelope or group policy)
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-05-04 01:03:25.535
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[agentPrompt] Reusing cached global context from first turn for conversation/turn db176e77-728f-40a9-8a31-58c6ddf3c291/c273d322-5d74-4778-9198-69dba2774ff4
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-05-04 01:03:28.549
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[fetchChat] Request 03b184a0-3a1e-42d8-82ab-598460652705 at <https://api.individual.githubcopilot.com/responses> finished with 200 status after 3033.4795999999624ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-05-04 01:03:32.403
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[agentModePolicy] Auto-approval is enabled (not disabled by token envelope or group policy)
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-05-04 01:03:32.478
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[agentPrompt] Reusing cached global context from first turn for conversation/turn db176e77-728f-40a9-8a31-58c6ddf3c291/c273d322-5d74-4778-9198-69dba2774ff4
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-05-04 01:03:37.113
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[fetchChat] Request 2bb6552e-e9bd-4598-b2e2-e36cc078a8fc at <https://api.individual.githubcopilot.com/responses> finished with 200 status after 4648.578699999955ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-05-04 01:03:41.774
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[agentModePolicy] Auto-approval is enabled (not disabled by token envelope or group policy)
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-05-04 01:03:42.734
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[agentPrompt] Reusing cached global context from first turn for conversation/turn db176e77-728f-40a9-8a31-58c6ddf3c291/c273d322-5d74-4778-9198-69dba2774ff4
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-05-04 01:03:43.607
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[fetchChat] Request bb346e52-0467-4dae-b971-065c99ac1724 at <https://api.individual.githubcopilot.com/responses> finished with 200 status after 1040.594299999997ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-05-04 01:03:44.914
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[agentModePolicy] Auto-approval is enabled (not disabled by token envelope or group policy)
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-05-04 01:03:44.987
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[agentPrompt] Reusing cached global context from first turn for conversation/turn db176e77-728f-40a9-8a31-58c6ddf3c291/c273d322-5d74-4778-9198-69dba2774ff4
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-05-04 01:03:49.628
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[fetchChat] Request c2920ed6-a8c4-49a5-9c09-f42368cf64ac at <https://api.individual.githubcopilot.com/responses> finished with 200 status after 4662.8599000000395ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-05-04 01:03:54.704
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[agentModePolicy] Auto-approval is enabled (not disabled by token envelope or group policy)
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-05-04 01:03:55.403
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[agentPrompt] Reusing cached global context from first turn for conversation/turn db176e77-728f-40a9-8a31-58c6ddf3c291/c273d322-5d74-4778-9198-69dba2774ff4
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-05-04 01:03:56.536
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[fetchChat] Request 2b052601-863f-46e2-a530-add8814c21bb at <https://api.individual.githubcopilot.com/responses> finished with 200 status after 1143.9841000000015ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-05-04 01:03:58.200
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[agentModePolicy] Auto-approval is enabled (not disabled by token envelope or group policy)
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-05-04 01:03:58.284
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[agentPrompt] Reusing cached global context from first turn for conversation/turn db176e77-728f-40a9-8a31-58c6ddf3c291/c273d322-5d74-4778-9198-69dba2774ff4
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-05-04 01:04:03.225
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[fetchChat] Request e7b575f4-2d56-4e0f-9c58-334c8eb14869 at <https://api.individual.githubcopilot.com/responses> finished with 200 status after 4964.995099999942ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-05-04 01:04:49.434
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[roundMetricsTracker] Turn token usage: 127389 prompt, 3475 completion, 105216 cached (cache rate: 82.6%)
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-05-04 01:04:49.845
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[fetchChat] Request a7184a92-3f9d-4c15-9cea-8c043bb1e853 at <https://api.individual.githubcopilot.com/chat/completions> finished with 200 status after 457.3582999999635ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-05-04 01:04:49.992
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[streamMessages] message 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-05-04 01:08:28.643
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[agentPrompt] Reusing cached global context from first turn for conversation/turn db176e77-728f-40a9-8a31-58c6ddf3c291/dda216ec-eac2-4b8c-be97-24b943955d38
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-05-04 01:08:33.018
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[fetchChat] Request 2869535c-6d2d-4548-b8d4-94f76ca2f194 at <https://api.individual.githubcopilot.com/responses> finished with 200 status after 4422.286899999948ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-05-04 01:08:37.636
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[agentModePolicy] Auto-approval is enabled (not disabled by token envelope or group policy)
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-05-04 01:08:37.698
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[ripgrep] Resolved ripgrep path: C:\Users\jhong\.cache\pkg\c06fa41e6fd7797bf5a2792d7d92f863d0053de673f60401971998f6b21b0fc8\rg.exe
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-05-04 01:08:37.698
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[ripgrep] Using tmpFolder for ripgrep: C:\Users\jhong\.cache\pkg\c06fa41e6fd7797bf5a2792d7d92f863d0053de673f60401971998f6b21b0fc8
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-05-04 01:08:37.774
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[agentPrompt] Reusing cached global context from first turn for conversation/turn db176e77-728f-40a9-8a31-58c6ddf3c291/dda216ec-eac2-4b8c-be97-24b943955d38
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-05-04 01:08:38.924
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[fetchChat] Request 43c3ac13-9e71-49e6-a439-1a5aa92be5bd at <https://api.individual.githubcopilot.com/responses> finished with 200 status after 1192.0866999999853ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-05-04 01:08:41.312
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[agentModePolicy] Auto-approval is enabled (not disabled by token envelope or group policy)
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-05-04 01:08:41.438
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[agentPrompt] Reusing cached global context from first turn for conversation/turn db176e77-728f-40a9-8a31-58c6ddf3c291/dda216ec-eac2-4b8c-be97-24b943955d38
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-05-04 01:08:42.770
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[fetchChat] Request 3e21659b-95d6-4c60-bbe0-924adc53166b at <https://api.individual.githubcopilot.com/responses> finished with 200 status after 1484.4742000000551ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-05-04 01:08:43.791
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[agentModePolicy] Auto-approval is enabled (not disabled by token envelope or group policy)
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-05-04 01:08:43.942
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[agentPrompt] Reusing cached global context from first turn for conversation/turn db176e77-728f-40a9-8a31-58c6ddf3c291/dda216ec-eac2-4b8c-be97-24b943955d38
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-05-04 01:08:48.410
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[fetchChat] Request da55cafb-cc80-4d37-815f-88b959bf59e4 at <https://api.individual.githubcopilot.com/responses> finished with 200 status after 4594.627800000017ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-05-04 01:08:52.934
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[agentModePolicy] Auto-approval is enabled (not disabled by token envelope or group policy)
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-05-04 01:08:53.071
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[agentPrompt] Reusing cached global context from first turn for conversation/turn db176e77-728f-40a9-8a31-58c6ddf3c291/dda216ec-eac2-4b8c-be97-24b943955d38
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-05-04 01:08:57.211
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[fetchChat] Request 1ab24a4e-1133-4d1d-b93b-4db196cd18d9 at <https://api.individual.githubcopilot.com/responses> finished with 200 status after 4302.010799999931ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-05-04 01:09:05.172
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[agentModePolicy] Auto-approval is enabled (not disabled by token envelope or group policy)
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-05-04 01:09:06.138
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[agentPrompt] Reusing cached global context from first turn for conversation/turn db176e77-728f-40a9-8a31-58c6ddf3c291/dda216ec-eac2-4b8c-be97-24b943955d38
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-05-04 01:09:08.351
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[fetchChat] Request 018b87e4-b468-430a-84a6-2ccaee863be4 at <https://api.individual.githubcopilot.com/responses> finished with 200 status after 2479.985800000024ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-05-04 01:09:10.870
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[agentModePolicy] Auto-approval is enabled (not disabled by token envelope or group policy)
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-05-04 01:09:11.010
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[agentPrompt] Reusing cached global context from first turn for conversation/turn db176e77-728f-40a9-8a31-58c6ddf3c291/dda216ec-eac2-4b8c-be97-24b943955d38
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-05-04 01:09:14.723
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[fetchChat] Request 31c9b0cc-e694-4884-8b3f-a7df7c136a7a at <https://api.individual.githubcopilot.com/responses> finished with 200 status after 3764.791899999953ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-05-04 01:09:25.824
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[agentModePolicy] Auto-approval is enabled (not disabled by token envelope or group policy)
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-05-04 01:09:27.452
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[agentPrompt] Reusing cached global context from first turn for conversation/turn db176e77-728f-40a9-8a31-58c6ddf3c291/dda216ec-eac2-4b8c-be97-24b943955d38
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-05-04 01:09:28.497
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[fetchChat] Request 12020bd8-e015-4cb8-ba7d-07078ac95f3d at <https://api.individual.githubcopilot.com/responses> finished with 200 status after 1299.8233000000473ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-05-04 01:09:31.068
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[agentModePolicy] Auto-approval is enabled (not disabled by token envelope or group policy)
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-05-04 01:09:31.222
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[agentPrompt] Reusing cached global context from first turn for conversation/turn db176e77-728f-40a9-8a31-58c6ddf3c291/dda216ec-eac2-4b8c-be97-24b943955d38
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-05-04 01:09:36.005
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[fetchChat] Request e13b2c9a-0726-4ad0-b2bd-7656982218e8 at <https://api.individual.githubcopilot.com/responses> finished with 200 status after 4850.548199999961ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-05-04 01:10:45.198
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[roundMetricsTracker] Turn token usage: 222734 prompt, 2985 completion, 189056 cached (cache rate: 84.9%)
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-05-04 01:10:45.623
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[fetchChat] Request 93607ee4-6123-4bb3-bbfe-80f312ea631b at <https://api.individual.githubcopilot.com/chat/completions> finished with 200 status after 503.02330000000075ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-05-04 01:10:45.799
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[streamMessages] message 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-05-04 01:12:11.497
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[agentPrompt] Reusing cached global context from first turn for conversation/turn db176e77-728f-40a9-8a31-58c6ddf3c291/fe9d80c4-8f5f-47f8-89c9-36d006721b2a
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-05-04 01:12:20.437
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[fetchChat] Request 59e93504-1555-4e08-b2b4-6dc19a31e188 at <https://api.individual.githubcopilot.com/responses> finished with 200 status after 8911.951000000117ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-05-04 01:13:03.705
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[agentModePolicy] Auto-approval is enabled (not disabled by token envelope or group policy)
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-05-04 01:13:04.449
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[agentPrompt] Reusing cached global context from first turn for conversation/turn db176e77-728f-40a9-8a31-58c6ddf3c291/fe9d80c4-8f5f-47f8-89c9-36d006721b2a
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-05-04 01:13:05.424
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[fetchChat] Request 8b265942-5a36-4cc1-b961-ed4c4ad0fc91 at <https://api.individual.githubcopilot.com/responses> finished with 200 status after 1214.9457000000402ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-05-04 01:13:13.161
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[agentModePolicy] Auto-approval is enabled (not disabled by token envelope or group policy)
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-05-04 01:13:13.862
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[agentPrompt] Reusing cached global context from first turn for conversation/turn db176e77-728f-40a9-8a31-58c6ddf3c291/fe9d80c4-8f5f-47f8-89c9-36d006721b2a
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-05-04 01:13:14.911
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[fetchChat] Request f6c1e13a-f605-436e-9c2d-978be098cbb3 at <https://api.individual.githubcopilot.com/responses> finished with 200 status after 1216.47080000001ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-05-04 01:13:22.424
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[agentModePolicy] Auto-approval is enabled (not disabled by token envelope or group policy)
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-05-04 01:13:23.001
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[agentPrompt] Reusing cached global context from first turn for conversation/turn db176e77-728f-40a9-8a31-58c6ddf3c291/fe9d80c4-8f5f-47f8-89c9-36d006721b2a
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-05-04 01:13:24.202
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[fetchChat] Request 1a49b7bb-a452-44de-a5cc-ebda3006d17c at <https://api.individual.githubcopilot.com/responses> finished with 200 status after 1354.1071000001393ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-05-04 01:13:26.128
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[agentModePolicy] Auto-approval is enabled (not disabled by token envelope or group policy)
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-05-04 01:13:26.318
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[agentPrompt] Reusing cached global context from first turn for conversation/turn db176e77-728f-40a9-8a31-58c6ddf3c291/fe9d80c4-8f5f-47f8-89c9-36d006721b2a
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-05-04 01:13:32.689
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[fetchChat] Request dd5ecfdf-7e27-40cc-8c86-b447b6349dee at <https://api.individual.githubcopilot.com/responses> finished with 200 status after 6451.490800000029ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-05-04 01:13:33.599
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[agentModePolicy] Auto-approval is enabled (not disabled by token envelope or group policy)
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-05-04 01:13:33.599
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[AutoApproveService] Extracted shell 'cmd.exe' from run_in_terminal tool description.
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-05-04 01:13:33.656
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[CommandLineAutoApprover] Command 'cd /d D:\documentos\aliens-taller\alienstaller1 && mvn -q test' is split into sub-commands: ["cd /d D:\\documentos\\aliens-taller\\alienstaller1","mvn -q test"]
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-05-04 01:13:33.657
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[CommandLineAutoApprover] Command 'cd /d D:\documentos\aliens-taller\alienstaller1 && mvn -q test' has no matching auto approve entries
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-05-04 01:13:37.083
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[agentPrompt] Reusing cached global context from first turn for conversation/turn db176e77-728f-40a9-8a31-58c6ddf3c291/fe9d80c4-8f5f-47f8-89c9-36d006721b2a
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-05-04 01:13:37.781
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[fetchChat] Request dc0fca6d-1638-4853-92f6-44b723192f7c at <https://api.individual.githubcopilot.com/responses> finished with 200 status after 1243.1644999999553ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-05-04 01:13:38.583
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[agentModePolicy] Auto-approval is enabled (not disabled by token envelope or group policy)
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-05-04 01:13:38.762
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[agentPrompt] Reusing cached global context from first turn for conversation/turn db176e77-728f-40a9-8a31-58c6ddf3c291/fe9d80c4-8f5f-47f8-89c9-36d006721b2a
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-05-04 01:13:40.857
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[fetchChat] Request d8230af5-1add-4b51-ab2e-83c6f72178dd at <https://api.individual.githubcopilot.com/responses> finished with 200 status after 2162.503000000026ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-05-04 01:13:47.033
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[AutoApproveService] Extracted shell 'cmd.exe' from run_in_terminal tool description.
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-05-04 01:13:47.033
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[agentModePolicy] Auto-approval is enabled (not disabled by token envelope or group policy)
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-05-04 01:13:47.033
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[CommandLineAutoApprover] Command 'cd /d D:\documentos\aliens-taller\alienstaller1 && mvn test -DskipTests=false' is split into sub-commands: ["cd /d D:\\documentos\\aliens-taller\\alienstaller1","mvn test -DskipTests=false"]
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-05-04 01:13:47.034
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[CommandLineAutoApprover] Command 'cd /d D:\documentos\aliens-taller\alienstaller1 && mvn test -DskipTests=false' has no matching auto approve entries
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-05-04 01:14:00.904
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[agentPrompt] Reusing cached global context from first turn for conversation/turn db176e77-728f-40a9-8a31-58c6ddf3c291/fe9d80c4-8f5f-47f8-89c9-36d006721b2a
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-05-04 01:14:04.481
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[fetchChat] Request d4b0a604-ab68-4412-8568-fbc8f0daf964 at <https://api.individual.githubcopilot.com/responses> finished with 200 status after 3628.625299999956ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-05-04 01:14:31.436
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[agentModePolicy] Auto-approval is enabled (not disabled by token envelope or group policy)
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-05-04 01:14:32.380
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[agentPrompt] Reusing cached global context from first turn for conversation/turn db176e77-728f-40a9-8a31-58c6ddf3c291/fe9d80c4-8f5f-47f8-89c9-36d006721b2a
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-05-04 01:14:33.573
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[fetchChat] Request 28372ee2-f452-44af-a27d-ecb61baaf307 at <https://api.individual.githubcopilot.com/responses> finished with 200 status after 1494.3285000000615ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-05-04 01:14:41.525
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[agentModePolicy] Auto-approval is enabled (not disabled by token envelope or group policy)
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-05-04 01:14:42.663
+!MESSAGE [Info] File is null or removed for editor: README.md
+
+!ENTRY org.eclipse.ui 4 4 2026-05-04 01:14:42.939
+!MESSAGE Conflicting handlers for org.eclipse.ui.edit.findNext: {ActionHandler(org.eclipse.ui.texteditor.FindNextAction@2bc8f26c)} vs {ActionHandler(org.eclipse.ui.texteditor.FindNextAction@2bc8f26c)} in: PartImpl (org.eclipse.e4.ui.compatibility.editor)  removeOnHide org.eclipse.mylyn.wikitext.ui.editor.markupEditorContext
+!STACK 0
+java.lang.IllegalStateException: Conflicting handlers: {[ActionHandler(org.eclipse.ui.texteditor.FindNextAction@2bc8f26c),  for 'org.eclipse.ui.edit.findNext',  in PartImpl (org.eclipse.e4.ui.compatibility.editor)  removeOnHide org.eclipse.mylyn.wikitext.ui.editor.markupEditorContext, activeWhen=ActivePartExpression(org.eclipse.mylyn.internal.wikitext.ui.editor.MarkupEditor@7d41a264), active=true, sourcePriority=1048576, participating=true]} vs {[ActionHandler(org.eclipse.ui.texteditor.FindNextAction@2bc8f26c),  for 'org.eclipse.ui.edit.findNext',  in PartImpl (org.eclipse.e4.ui.compatibility.editor)  removeOnHide org.eclipse.mylyn.wikitext.ui.editor.markupEditorContext, activeWhen=ActivePartExpression(org.eclipse.mylyn.internal.wikitext.ui.editor.MarkupEditor@7d41a264), active=true, sourcePriority=1048576, participating=true]} in: PartImpl (org.eclipse.e4.ui.compatibility.editor)  removeOnHide org.eclipse.mylyn.wikitext.ui.editor.markupEditorContext
+	at org.eclipse.ui.internal.handlers.LegacyHandlerService$HandlerSelectionFunction.compute(LegacyHandlerService.java:144)
+	at org.eclipse.e4.core.internal.contexts.ValueComputation.get(ValueComputation.java:72)
+	at org.eclipse.e4.core.internal.contexts.EclipseContext.internalGet(EclipseContext.java:276)
+	at org.eclipse.e4.core.internal.contexts.EclipseContext.get(EclipseContext.java:239)
+	at org.eclipse.e4.core.commands.internal.HandlerServiceImpl.lookUpHandler(HandlerServiceImpl.java:99)
+	at org.eclipse.ui.internal.handlers.E4HandlerProxy.handlerChanged(E4HandlerProxy.java:115)
+	at org.eclipse.core.commands.AbstractHandler.fireHandlerChanged(AbstractHandler.java:77)
+	at org.eclipse.jface.commands.ActionHandler.lambda$0(ActionHandler.java:84)
+	at org.eclipse.jface.action.AbstractAction.firePropertyChange(AbstractAction.java:52)
+	at org.eclipse.jface.action.AbstractAction.firePropertyChange(AbstractAction.java:75)
+	at org.eclipse.jface.action.Action.setEnabled(Action.java:541)
+	at org.eclipse.ui.texteditor.FindNextAction.update(FindNextAction.java:247)
+	at org.eclipse.ui.texteditor.AbstractTextEditor.updateAction(AbstractTextEditor.java:5698)
+	at org.eclipse.ui.texteditor.AbstractTextEditor.updateContentDependentActions(AbstractTextEditor.java:5792)
+	at org.eclipse.ui.texteditor.AbstractTextEditor$TextListener.lambda$0(AbstractTextEditor.java:662)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:132)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4122)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3738)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1160)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1051)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:153)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:684)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:583)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:173)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:185)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:219)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:149)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:115)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:467)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:298)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:615)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:563)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1415)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1387)
+
+!ENTRY org.eclipse.ui 4 4 2026-05-04 01:14:42.940
+!MESSAGE Conflicting handlers for org.eclipse.ui.edit.findPrevious: {ActionHandler(org.eclipse.ui.texteditor.FindNextAction@33f7c082)} vs {ActionHandler(org.eclipse.ui.texteditor.FindNextAction@33f7c082)} in: PartImpl (org.eclipse.e4.ui.compatibility.editor)  removeOnHide org.eclipse.mylyn.wikitext.ui.editor.markupEditorContext
+!STACK 0
+java.lang.IllegalStateException: Conflicting handlers: {[ActionHandler(org.eclipse.ui.texteditor.FindNextAction@33f7c082),  for 'org.eclipse.ui.edit.findPrevious',  in PartImpl (org.eclipse.e4.ui.compatibility.editor)  removeOnHide org.eclipse.mylyn.wikitext.ui.editor.markupEditorContext, activeWhen=ActivePartExpression(org.eclipse.mylyn.internal.wikitext.ui.editor.MarkupEditor@7d41a264), active=true, sourcePriority=1048576, participating=true]} vs {[ActionHandler(org.eclipse.ui.texteditor.FindNextAction@33f7c082),  for 'org.eclipse.ui.edit.findPrevious',  in PartImpl (org.eclipse.e4.ui.compatibility.editor)  removeOnHide org.eclipse.mylyn.wikitext.ui.editor.markupEditorContext, activeWhen=ActivePartExpression(org.eclipse.mylyn.internal.wikitext.ui.editor.MarkupEditor@7d41a264), active=true, sourcePriority=1048576, participating=true]} in: PartImpl (org.eclipse.e4.ui.compatibility.editor)  removeOnHide org.eclipse.mylyn.wikitext.ui.editor.markupEditorContext
+	at org.eclipse.ui.internal.handlers.LegacyHandlerService$HandlerSelectionFunction.compute(LegacyHandlerService.java:144)
+	at org.eclipse.e4.core.internal.contexts.ValueComputation.get(ValueComputation.java:72)
+	at org.eclipse.e4.core.internal.contexts.EclipseContext.internalGet(EclipseContext.java:276)
+	at org.eclipse.e4.core.internal.contexts.EclipseContext.get(EclipseContext.java:239)
+	at org.eclipse.e4.core.commands.internal.HandlerServiceImpl.lookUpHandler(HandlerServiceImpl.java:99)
+	at org.eclipse.ui.internal.handlers.E4HandlerProxy.handlerChanged(E4HandlerProxy.java:115)
+	at org.eclipse.core.commands.AbstractHandler.fireHandlerChanged(AbstractHandler.java:77)
+	at org.eclipse.jface.commands.ActionHandler.lambda$0(ActionHandler.java:84)
+	at org.eclipse.jface.action.AbstractAction.firePropertyChange(AbstractAction.java:52)
+	at org.eclipse.jface.action.AbstractAction.firePropertyChange(AbstractAction.java:75)
+	at org.eclipse.jface.action.Action.setEnabled(Action.java:541)
+	at org.eclipse.ui.texteditor.FindNextAction.update(FindNextAction.java:247)
+	at org.eclipse.ui.texteditor.AbstractTextEditor.updateAction(AbstractTextEditor.java:5698)
+	at org.eclipse.ui.texteditor.AbstractTextEditor.updateContentDependentActions(AbstractTextEditor.java:5792)
+	at org.eclipse.ui.texteditor.AbstractTextEditor$TextListener.lambda$0(AbstractTextEditor.java:662)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:132)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4122)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3738)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1160)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1051)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:153)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:684)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:583)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:173)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:185)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:219)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:149)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:115)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:467)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:298)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:615)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:563)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1415)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1387)
+
+!ENTRY org.eclipse.ui 4 4 2026-05-04 01:14:42.940
+!MESSAGE Conflicting handlers for org.eclipse.ui.edit.findIncremental: {ActionHandler(org.eclipse.ui.texteditor.IncrementalFindAction@700ccc26)} vs {ActionHandler(org.eclipse.ui.texteditor.IncrementalFindAction@700ccc26)} in: PartImpl (org.eclipse.e4.ui.compatibility.editor)  removeOnHide org.eclipse.mylyn.wikitext.ui.editor.markupEditorContext
+!STACK 0
+java.lang.IllegalStateException: Conflicting handlers: {[ActionHandler(org.eclipse.ui.texteditor.IncrementalFindAction@700ccc26),  for 'org.eclipse.ui.edit.findIncremental',  in PartImpl (org.eclipse.e4.ui.compatibility.editor)  removeOnHide org.eclipse.mylyn.wikitext.ui.editor.markupEditorContext, activeWhen=ActivePartExpression(org.eclipse.mylyn.internal.wikitext.ui.editor.MarkupEditor@7d41a264), active=true, sourcePriority=1048576, participating=true]} vs {[ActionHandler(org.eclipse.ui.texteditor.IncrementalFindAction@700ccc26),  for 'org.eclipse.ui.edit.findIncremental',  in PartImpl (org.eclipse.e4.ui.compatibility.editor)  removeOnHide org.eclipse.mylyn.wikitext.ui.editor.markupEditorContext, activeWhen=ActivePartExpression(org.eclipse.mylyn.internal.wikitext.ui.editor.MarkupEditor@7d41a264), active=true, sourcePriority=1048576, participating=true]} in: PartImpl (org.eclipse.e4.ui.compatibility.editor)  removeOnHide org.eclipse.mylyn.wikitext.ui.editor.markupEditorContext
+	at org.eclipse.ui.internal.handlers.LegacyHandlerService$HandlerSelectionFunction.compute(LegacyHandlerService.java:144)
+	at org.eclipse.e4.core.internal.contexts.ValueComputation.get(ValueComputation.java:72)
+	at org.eclipse.e4.core.internal.contexts.EclipseContext.internalGet(EclipseContext.java:276)
+	at org.eclipse.e4.core.internal.contexts.EclipseContext.get(EclipseContext.java:239)
+	at org.eclipse.e4.core.commands.internal.HandlerServiceImpl.lookUpHandler(HandlerServiceImpl.java:99)
+	at org.eclipse.ui.internal.handlers.E4HandlerProxy.handlerChanged(E4HandlerProxy.java:115)
+	at org.eclipse.core.commands.AbstractHandler.fireHandlerChanged(AbstractHandler.java:77)
+	at org.eclipse.jface.commands.ActionHandler.lambda$0(ActionHandler.java:84)
+	at org.eclipse.jface.action.AbstractAction.firePropertyChange(AbstractAction.java:52)
+	at org.eclipse.jface.action.AbstractAction.firePropertyChange(AbstractAction.java:75)
+	at org.eclipse.jface.action.Action.setEnabled(Action.java:541)
+	at org.eclipse.ui.texteditor.IncrementalFindAction.update(IncrementalFindAction.java:123)
+	at org.eclipse.ui.texteditor.AbstractTextEditor.updateAction(AbstractTextEditor.java:5698)
+	at org.eclipse.ui.texteditor.AbstractTextEditor.updateContentDependentActions(AbstractTextEditor.java:5792)
+	at org.eclipse.ui.texteditor.AbstractTextEditor$TextListener.lambda$0(AbstractTextEditor.java:662)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:132)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4122)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3738)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1160)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1051)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:153)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:684)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:583)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:173)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:185)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:219)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:149)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:115)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:467)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:298)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:615)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:563)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1415)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1387)
+
+!ENTRY org.eclipse.ui 4 4 2026-05-04 01:14:42.940
+!MESSAGE Conflicting handlers for org.eclipse.ui.edit.findIncrementalReverse: {ActionHandler(org.eclipse.ui.texteditor.IncrementalFindAction@165fa8d9)} vs {ActionHandler(org.eclipse.ui.texteditor.IncrementalFindAction@165fa8d9)} in: PartImpl (org.eclipse.e4.ui.compatibility.editor)  removeOnHide org.eclipse.mylyn.wikitext.ui.editor.markupEditorContext
+!STACK 0
+java.lang.IllegalStateException: Conflicting handlers: {[ActionHandler(org.eclipse.ui.texteditor.IncrementalFindAction@165fa8d9),  for 'org.eclipse.ui.edit.findIncrementalReverse',  in PartImpl (org.eclipse.e4.ui.compatibility.editor)  removeOnHide org.eclipse.mylyn.wikitext.ui.editor.markupEditorContext, activeWhen=ActivePartExpression(org.eclipse.mylyn.internal.wikitext.ui.editor.MarkupEditor@7d41a264), active=true, sourcePriority=1048576, participating=true]} vs {[ActionHandler(org.eclipse.ui.texteditor.IncrementalFindAction@165fa8d9),  for 'org.eclipse.ui.edit.findIncrementalReverse',  in PartImpl (org.eclipse.e4.ui.compatibility.editor)  removeOnHide org.eclipse.mylyn.wikitext.ui.editor.markupEditorContext, activeWhen=ActivePartExpression(org.eclipse.mylyn.internal.wikitext.ui.editor.MarkupEditor@7d41a264), active=true, sourcePriority=1048576, participating=true]} in: PartImpl (org.eclipse.e4.ui.compatibility.editor)  removeOnHide org.eclipse.mylyn.wikitext.ui.editor.markupEditorContext
+	at org.eclipse.ui.internal.handlers.LegacyHandlerService$HandlerSelectionFunction.compute(LegacyHandlerService.java:144)
+	at org.eclipse.e4.core.internal.contexts.ValueComputation.get(ValueComputation.java:72)
+	at org.eclipse.e4.core.internal.contexts.EclipseContext.internalGet(EclipseContext.java:276)
+	at org.eclipse.e4.core.internal.contexts.EclipseContext.get(EclipseContext.java:239)
+	at org.eclipse.e4.core.commands.internal.HandlerServiceImpl.lookUpHandler(HandlerServiceImpl.java:99)
+	at org.eclipse.ui.internal.handlers.E4HandlerProxy.handlerChanged(E4HandlerProxy.java:115)
+	at org.eclipse.core.commands.AbstractHandler.fireHandlerChanged(AbstractHandler.java:77)
+	at org.eclipse.jface.commands.ActionHandler.lambda$0(ActionHandler.java:84)
+	at org.eclipse.jface.action.AbstractAction.firePropertyChange(AbstractAction.java:52)
+	at org.eclipse.jface.action.AbstractAction.firePropertyChange(AbstractAction.java:75)
+	at org.eclipse.jface.action.Action.setEnabled(Action.java:541)
+	at org.eclipse.ui.texteditor.IncrementalFindAction.update(IncrementalFindAction.java:123)
+	at org.eclipse.ui.texteditor.AbstractTextEditor.updateAction(AbstractTextEditor.java:5698)
+	at org.eclipse.ui.texteditor.AbstractTextEditor.updateContentDependentActions(AbstractTextEditor.java:5792)
+	at org.eclipse.ui.texteditor.AbstractTextEditor$TextListener.lambda$0(AbstractTextEditor.java:662)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:132)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4122)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3738)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1160)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1051)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:153)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:684)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:583)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:173)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:185)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:219)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:149)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:115)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:467)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:298)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:615)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:563)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1415)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1387)
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-05-04 01:14:43.107
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[agentPrompt] Reusing cached global context from first turn for conversation/turn db176e77-728f-40a9-8a31-58c6ddf3c291/fe9d80c4-8f5f-47f8-89c9-36d006721b2a
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-05-04 01:14:44.183
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[fetchChat] Request 629884a0-7529-463c-bfbf-e272c9baa295 at <https://api.individual.githubcopilot.com/responses> finished with 200 status after 1399.0322999998461ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-05-04 01:14:45.448
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[agentModePolicy] Auto-approval is enabled (not disabled by token envelope or group policy)
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-05-04 01:14:45.657
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[agentPrompt] Reusing cached global context from first turn for conversation/turn db176e77-728f-40a9-8a31-58c6ddf3c291/fe9d80c4-8f5f-47f8-89c9-36d006721b2a
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-05-04 01:14:47.028
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[fetchChat] Request 4ebeadeb-25dd-4b24-8f19-8c981228f6b5 at <https://api.individual.githubcopilot.com/responses> finished with 200 status after 1458.6350000000093ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-05-04 01:15:26.167
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[roundMetricsTracker] Turn token usage: 473203 prompt, 5343 completion, 434688 cached (cache rate: 91.9%)
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-05-04 01:15:26.608
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[fetchChat] Request 6025865e-9a10-43f1-b25f-b4011ec3b00e at <https://api.individual.githubcopilot.com/chat/completions> finished with 200 status after 589.3310999998357ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-05-04 01:15:26.875
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[streamMessages] message 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-05-04 01:16:32.365
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[agentPrompt] Reusing cached global context from first turn for conversation/turn db176e77-728f-40a9-8a31-58c6ddf3c291/3acccaa2-5feb-4ebe-aae6-2d6bdf98bfee
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-05-04 01:16:38.468
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[fetchChat] Request 4ac21b41-3960-4fed-bd93-48525969f787 at <https://api.individual.githubcopilot.com/responses> finished with 200 status after 6157.292099999962ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-05-04 01:18:02.357
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[roundMetricsTracker] Turn token usage: 47433 prompt, 1634 completion, 35968 cached (cache rate: 75.8%)
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-05-04 01:18:02.764
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[fetchChat] Request a9009884-e1cf-48f6-9668-f735061e5748 at <https://api.individual.githubcopilot.com/chat/completions> finished with 200 status after 469.21690000011586ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-05-04 01:18:02.942
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[streamMessages] message 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-05-04 01:19:16.486
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[agentPrompt] Reusing cached global context from first turn for conversation/turn db176e77-728f-40a9-8a31-58c6ddf3c291/edf77f1a-5ec2-4b56-80c9-f2209c9b2eaa
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-05-04 01:19:20.605
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[fetchChat] Request d195338b-b92d-4a3c-bd89-436e0adf496b at <https://api.individual.githubcopilot.com/responses> finished with 200 status after 4187.293400000082ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-05-04 01:19:55.308
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[agentModePolicy] Auto-approval is enabled (not disabled by token envelope or group policy)
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-05-04 01:19:55.525
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[agentPrompt] Reusing cached global context from first turn for conversation/turn db176e77-728f-40a9-8a31-58c6ddf3c291/edf77f1a-5ec2-4b56-80c9-f2209c9b2eaa
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-05-04 01:19:56.728
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[fetchChat] Request 89ca7913-6874-458c-8d7a-9017742b6f47 at <https://api.individual.githubcopilot.com/responses> finished with 200 status after 1466.9891000001226ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-05-04 01:19:57.799
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[agentModePolicy] Auto-approval is enabled (not disabled by token envelope or group policy)
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-05-04 01:19:58.017
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[agentPrompt] Reusing cached global context from first turn for conversation/turn db176e77-728f-40a9-8a31-58c6ddf3c291/edf77f1a-5ec2-4b56-80c9-f2209c9b2eaa
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-05-04 01:20:01.932
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[fetchChat] Request ddd4957a-eecd-4b13-b9b2-744e2efdb430 at <https://api.individual.githubcopilot.com/responses> finished with 200 status after 4174.361199999927ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-05-04 01:20:27.612
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[agentModePolicy] Auto-approval is enabled (not disabled by token envelope or group policy)
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-05-04 01:20:28.761
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[agentPrompt] Reusing cached global context from first turn for conversation/turn db176e77-728f-40a9-8a31-58c6ddf3c291/edf77f1a-5ec2-4b56-80c9-f2209c9b2eaa
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-05-04 01:20:29.840
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[fetchChat] Request d5bc1678-6412-4b05-89f7-28e95883ccce at <https://api.individual.githubcopilot.com/responses> finished with 200 status after 1348.501600000076ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-05-04 01:20:38.752
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[agentModePolicy] Auto-approval is enabled (not disabled by token envelope or group policy)
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-05-04 01:20:39.905
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[agentPrompt] Reusing cached global context from first turn for conversation/turn db176e77-728f-40a9-8a31-58c6ddf3c291/edf77f1a-5ec2-4b56-80c9-f2209c9b2eaa
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-05-04 01:20:41.177
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[fetchChat] Request b3ac490a-b638-4d02-a779-f2cd5665aee8 at <https://api.individual.githubcopilot.com/responses> finished with 200 status after 1532.9528999999166ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-05-04 01:20:49.229
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[agentModePolicy] Auto-approval is enabled (not disabled by token envelope or group policy)
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-05-04 01:20:50.310
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[agentPrompt] Reusing cached global context from first turn for conversation/turn db176e77-728f-40a9-8a31-58c6ddf3c291/edf77f1a-5ec2-4b56-80c9-f2209c9b2eaa
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-05-04 01:20:51.567
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[fetchChat] Request 9bb9d127-b2dd-4efa-906f-6f7811f6dc8d at <https://api.individual.githubcopilot.com/responses> finished with 200 status after 1487.3223999999464ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-05-04 01:20:54.428
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[agentModePolicy] Auto-approval is enabled (not disabled by token envelope or group policy)
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-05-04 01:20:54.635
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[agentPrompt] Reusing cached global context from first turn for conversation/turn db176e77-728f-40a9-8a31-58c6ddf3c291/edf77f1a-5ec2-4b56-80c9-f2209c9b2eaa
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-05-04 01:20:58.363
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[fetchChat] Request 603af8f8-b2d3-44dc-806c-7c53226245b7 at <https://api.individual.githubcopilot.com/responses> finished with 200 status after 3804.717399999965ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-05-04 01:23:24.764
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[roundMetricsTracker] Turn token usage: 372692 prompt, 5676 completion, 356352 cached (cache rate: 95.6%)
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-05-04 01:23:25.267
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[fetchChat] Request add35866-e496-473c-9750-07f1e6a57c47 at <https://api.individual.githubcopilot.com/chat/completions> finished with 200 status after 575.0819000001065ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-05-04 01:23:25.444
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[streamMessages] message 0 returned. finish reason: [stop]
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-05-04 01:24:06.543
+!MESSAGE [Info] Document is null for editor: TestAlien.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-05-04 01:24:06.543
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///D:/documentos/aliens-taller/alienstaller1/src/com/krakedev/alien/testJUnit/TestAlien.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-05-04 01:26:14.245
+!MESSAGE [Info] Document is null for editor: pom.xml
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-05-04 01:26:14.245
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///D:/documentos/aliens-taller/alienstaller1/pom.xml
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-05-04 01:26:17.085
+!MESSAGE [Info] Document is null for editor: run-tests.bat
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-05-04 01:26:17.087
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///D:/documentos/aliens-taller/alienstaller1/run-tests.bat
+
+!ENTRY org.eclipse.lsp4e 2 0 2026-05-04 01:26:30.538
+!MESSAGE Could not get language server due to timeout after 50 milliseconds
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-05-04 01:26:31.053
+!MESSAGE [Info] Document is null for editor: TestAlien.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-05-04 01:26:31.053
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///D:/documentos/aliens-taller/alienstaller1/src/test/java/com/krakedev/alien/testJUnit/TestAlien.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-05-04 01:26:31.179
+!MESSAGE [Info] Document is null for editor: TestAlienIa.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-05-04 01:26:31.181
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///D:/documentos/aliens-taller/alienstaller1/src/test/java/com/krakedev/alien/testJUnit/TestAlienIa.java
+
+!ENTRY org.eclipse.lsp4e 2 0 2026-05-04 01:26:37.678
+!MESSAGE Could not get language server due to timeout after 50 milliseconds
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-05-04 01:26:38.140
+!MESSAGE [Info] Document is null for editor: Alien.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-05-04 01:26:38.141
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///D:/documentos/aliens-taller/alienstaller1/src/main/java/com/krakedev/alien/Alien.java
+
+!ENTRY org.eclipse.lsp4e 2 0 2026-05-04 01:28:35.552
+!MESSAGE Could not get language server due to timeout after 50 milliseconds
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-05-04 01:29:30.142
+!MESSAGE [Info] Document is null for editor: TestAlienIaTest.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-05-04 01:29:30.142
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///D:/documentos/aliens-taller/alienstaller1/src/com/krakedev/alien/testJUnit/TestAlienIaTest.java
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-05-04 01:30:04.736
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[AutoModelService] Auto model cache cleared due to token update
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-05-04 01:30:05.405
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[fetchCompletions] Request 25f91c7c-4374-4733-a6cf-f51bca57cb86 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 665.4418999999762ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-05-04 01:30:05.410
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-05-04 01:30:10.934
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[fetchCompletions] Request 14ce4da7-f58e-4d12-bb12-6d422050b323 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 207.16020000027493ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-05-04 01:30:10.939
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-05-04 01:30:17.872
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[fetchCompletions] Request 01be215d-50c3-4a7b-a989-15afe89da444 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 271.1005000001751ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-05-04 01:30:17.876
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-05-04 01:30:48.068
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[fetchCompletions] Request 01edd975-4830-47d7-a491-6886927dbc31 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 269.9374000001699ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-05-04 01:30:48.069
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-05-04 01:30:49.642
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[fetchCompletions] Request e9ce0cc4-379e-48ad-af36-efa97ef68adc at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 272.7534000002779ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-05-04 01:30:49.642
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-05-04 01:31:51.639
+!MESSAGE [Info] Document is null for editor: Aliens.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-05-04 01:31:51.640
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///D:/documentos/aliens-taller/alienstaller1/src/com/krakedev/alien/testJUnit/Aliens.java
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-05-04 01:32:30.151
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[fetchCompletions] Request 33230b69-1750-4e93-bb02-08f3f4e98ff5 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 241.68550000013784ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-05-04 01:32:30.231
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-05-04 01:32:39.655
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[fetchCompletions] Request 6a9d3580-0d96-4c5c-829f-ff1eba57c593 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 224.07079999987036ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-05-04 01:32:39.658
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-05-04 01:33:17.050
+!MESSAGE [Info] Document is null for editor: Aliens.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-05-04 01:33:17.051
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///D:/documentos/aliens-taller/alienstaller1/src/com/krakedev/alien/testJUnit/Aliens.java

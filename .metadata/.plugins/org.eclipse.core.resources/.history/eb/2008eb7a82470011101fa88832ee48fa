@@ -1,0 +1,127 @@
+package com.krakedev.alien;
+public class Alien {
+
+    private int tamanio;
+    private String color;
+    private int numeroOjos;
+    private int numeroBrazos;
+    private int numeroPies;
+
+    private double precioExtremidad;
+    private double precioOjo;
+    private double precioCuerpo;
+
+    private double precioTotal;
+
+    // Constructor
+    public Alien(int tamanio, String color) {
+
+        // Validación del tamaño
+        if (tamanio < 5) {
+            this.tamanio = 5;
+        } else if (tamanio > 30) {
+            this.tamanio = 30;
+        } else {
+            this.tamanio = tamanio;
+        }
+
+        this.color = color;
+
+        // Inicializo en 0
+        this.numeroOjos = 0;
+        this.numeroBrazos = 0;
+        this.numeroPies = 0;
+        this.precioTotal = 0;
+
+        // Cálculo de precios según tamaño
+        this.precioCuerpo = this.tamanio * 0.20;
+        this.precioExtremidad = this.tamanio * 0.10;
+        this.precioOjo = this.tamanio * 0.05;
+    }
+
+    // Getters
+    public int getTamanio() { return tamanio; }
+    public String getColor() { return color; }
+    public int getNumeroOjos() { return numeroOjos; }
+    public int getNumeroBrazos() { return numeroBrazos; }
+    public int getNumeroPies() { return numeroPies; }
+    public double getPrecioExtremidad() { return precioExtremidad; }
+    public double getPrecioOjo() { return precioOjo; }
+    public double getPrecioCuerpo() { return precioCuerpo; }
+    public double getPrecioTotal() { return precioTotal; }
+
+    // Método imprimir
+    public void imprimir() {
+        System.out.println("=== Alien ===");
+        System.out.println("Tamaño: " + tamanio);
+        System.out.println("Color: " + color);
+        System.out.println("Ojos: " + numeroOjos);
+        System.out.println("Brazos: " + numeroBrazos);
+        System.out.println("Piernas: " + numeroPies);
+        System.out.println("Precio total: " + precioTotal);
+    }
+
+    // =====================
+    // PARTE 7: EXTREMIDADES
+    // =====================
+
+    public boolean agregarBrazos(int cantidad) {
+
+        // Verifico que no pase el máximo de 10 extremidades
+        if ((numeroBrazos + numeroPies + cantidad) <= 10) {
+            numeroBrazos += cantidad;
+            calcularPrecioTotal();
+            return true;
+        }
+        return false;
+    }
+
+    public boolean agregarPiernas(int cantidad) {
+
+        // Mismo criterio que brazos
+        if ((numeroBrazos + numeroPies + cantidad) <= 10) {
+            numeroPies += cantidad;
+            calcularPrecioTotal();
+            return true;
+        }
+        return false;
+    }
+
+    // =====================
+    // PARTE 8: OJOS
+    // =====================
+
+    public boolean agregarOjos(int cantidad) {
+
+        int maxOjos = 0;
+
+        // Restricciones según tamaño
+        if (tamanio >= 5 && tamanio <= 10) {
+            maxOjos = 3;
+        } else if (tamanio > 10 && tamanio <= 20) {
+            maxOjos = 5;
+        } else {
+            maxOjos = 7;
+        }
+
+        // Validación
+        if ((numeroOjos + cantidad) <= maxOjos) {
+            numeroOjos += cantidad;
+            calcularPrecioTotal();
+            return true;
+        }
+
+        return false;
+    }
+
+    // =====================
+    // PARTE 9: PRECIO TOTAL
+    // =====================
+
+    private void calcularPrecioTotal() {
+
+        precioTotal = precioCuerpo +
+                ((numeroBrazos + numeroPies) * precioExtremidad) +
+                (numeroOjos * precioOjo);
+    }
+}
